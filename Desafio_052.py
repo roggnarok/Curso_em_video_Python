@@ -1,4 +1,8 @@
 # Curso em vídeo - Desafio 052 - FOR
+                ***** ATENÇÃO*****
+PRECISA DE MELHORIA PARA QUE FUNCIONE CORRETAMENTO
+ESTÁ MOSTRANDO NÚMEROS QUE NÃO SÃO PRIMOS COMO SENDO PRIMOS. 
+
 '''
     Faça um programa que leia um número inteiro
     e diga se ele é ou não um número primo.
