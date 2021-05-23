@@ -1,7 +1,7 @@
 # Curso em vídeo - Desafio 052 - FOR
 '''
-    Faça um programa que leia um número inteiro
-    e diga se ele é ou não um número primo.
+    Faça um programa que leia um número inteiro e
+    diga se ele é ou não um número primo.
 '''
 c = 0
 num = int(input('Digite um número: '))
@@ -15,4 +15,3 @@ else:
         print(f'O número {num} é primo!')
     else:
         print(f'O número {num} não primo!')
-        
