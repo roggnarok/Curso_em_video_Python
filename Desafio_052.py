@@ -1,21 +1,18 @@
 # Curso em vídeo - Desafio 052 - FOR
-                ***** ATENÇÃO*****
-PRECISA DE MELHORIA PARA QUE FUNCIONE CORRETAMENTO
-ESTÁ MOSTRANDO NÚMEROS QUE NÃO SÃO PRIMOS COMO SENDO PRIMOS. 
-
 '''
     Faça um programa que leia um número inteiro
     e diga se ele é ou não um número primo.
 '''
-while True:
-    num = int(input('Forneça um valor para este programa: '))
-    if num <= 1:
-        print(f'O número {num} não é primo.')
-    for i in range(2, num, 1):
+c = 0
+num = int(input('Digite um número: '))
+if num <= 1:
+    print(f'O número {num} não é primo.')
+else:
+    for i in range(1, num+1):
         if (num % i) == 0:
-            print(f'O número {num} não é primo.')
-            break
-        else:
-            print(f'O número {num} é primo!')
-            break
-
+            c += 1
+    if (c == 2):
+        print(f'O número {num} é primo!')
+    else:
+        print(f'O número {num} não primo!')
+        
