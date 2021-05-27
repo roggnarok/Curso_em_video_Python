@@ -6,6 +6,9 @@
     Qual o nome do homem mais velho, Quantas mulheres têm 
     menos de 20 anos. 
 '''
-
+idade = []
+nome = []
 for i in range(4):
+    nome.append(input('Digite o nome: '))
+    idade.append(int(input('Digite a idade: ')))
     
