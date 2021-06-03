@@ -29,4 +29,3 @@ while a < 0 or a > 20:
 while a >= 0 and a <= 20:
     print(numeros[a])
     break
-print(quebra)
