@@ -7,6 +7,4 @@
  
 Relembrando que estão são as minhas resoluções
 dos desafios do curso em vídeo Python, e que portanto 
-podem apresentar divergência da forma que foi resolvido pelo professor!
-teste retomada das aulas
-
+podem apresentar divergência da forma que foi resolvido pelo professor.
