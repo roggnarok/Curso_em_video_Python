@@ -5,7 +5,7 @@ entrada = input(
     "Verifica o que é aquilo que foi digitado.\
                     \nDigite qualquer coisa: "
 )
-print(f'O tipo primitivo é {type(entrada)}')
+print(f'O tipo primitivo é {type(entrada)}') 
 print(
     f'Só tem espaços?\t\t{entrada.isspace()}\
       \nÉ um número?\t\t{entrada.isnumeric()}\
