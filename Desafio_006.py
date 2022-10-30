@@ -2,4 +2,4 @@
 a = int(input('Digite um número: '))
 print(f'O número digitado foi {a}\nO dobro dele é {a*2}\nO triplo dele é {a*3}\
     \nA Raíz Quadrada dele é {a**(1/2)}')
-    
+#This job was made by Rodrigo. https://github.com/roggnarok

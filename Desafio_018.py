@@ -1,8 +1,7 @@
 # Desafio018 - Recebe o valor de um ângulo e mostra o seno, cosseno e tangente.
 import math
-# Recebe o valor do ângulo.
-angulo = float(input('Digite o seu ângulo favorito: '))
-ang_rad = math.radians(angulo)  # Converte o ângulo em Radianos.
+angulo = float(input('Digite o seu ângulo favorito: '))# Recebe o valor do ângulo.
+ang_rad = math.radians(angulo)                         # Converte o ângulo em Radianos.
 # Mostra o ângulo em Radianos.
 print(f'O valor do ângulo {angulo}° em radianos é: {ang_rad:.4f} rad.')
 # Calcula o Seno (O ângulo DEVE estar em Radianos)!

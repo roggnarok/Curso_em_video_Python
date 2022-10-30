@@ -4,3 +4,4 @@ dias = int(input('Informe a quandidade de dias que o carro esteve alugado: '))
 km = float(input('Informe a quantidade de Quilometros rodados: '))
 valorDoAluguel = (dias * 60)+(km * 0.15)
 print(f'O valor a ser pago é de R$ {valorDoAluguel:.2f}')
+#This job was made by Rodrigo. https://github.com/roggnarok

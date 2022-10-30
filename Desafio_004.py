@@ -16,3 +16,4 @@ print(
       \nEstá em minúsculo?\t{entrada.islower()}\
       \nEstá capitalizada?\t{entrada.istitle()}'
 )
+#This job was made by Rodrigo. https://github.com/roggnarok

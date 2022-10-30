@@ -16,3 +16,4 @@ print(f'O valor digitado foi {n} e a tabuada do {n} é:\
 print(f'Abaixo será apresentada a tabuada do {n}.')
 for i in range(1,11):
     print(f'{n} x {i} = {n * i}')
+#This job was made by Rodrigo. https://github.com/roggnarok

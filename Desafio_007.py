@@ -4,3 +4,4 @@ nota2 = float(input('Digite a segunda nota: '))
 media = (nota1 + nota2)/2                       #Ordem de precedência entre operadores.
 print(f'As notas foram {nota1} e {nota2}\
     \nA média é igual a {media :.2f}')
+#This job was made by Rodrigo. https://github.com/roggnarok

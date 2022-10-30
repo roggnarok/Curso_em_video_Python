@@ -5,3 +5,4 @@ sucessor = a+1
 print(f'O número digitado foi {a}\
     \no sucessor dele é {sucessor}\
     \no antecessor dele é {anterior}')
+#This job was made by Rodrigo. https://github.com/roggnarok

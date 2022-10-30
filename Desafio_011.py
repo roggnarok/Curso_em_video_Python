@@ -6,3 +6,4 @@ rendimento = area / 2
 print(f'A Largura da parede é de {largura} metros, a Altura é de {altura} metros\
     \nA área da parede é de {area} metros²\
     \nPara pintar essa parede, será necessário {rendimento :.2f} litros de tinta.')
+#This job was made by Rodrigo. https://github.com/roggnarok
