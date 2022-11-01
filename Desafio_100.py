@@ -11,14 +11,12 @@ def sorteio(lista):             # Cria a função sorteio que recebe uma lista
         lista.append(n)                 #O valor n é adicionado no final da lista
     print(f'A lista com 5 valores sorteados é {lista}.')
 
-
 def somaPar(lista):             # Cria a função somaPar que recebe uma lista
     s = 0                           # o valor zero é atribuído à variável s
     for value in lista:             # Loop ocorrerá na lista
         if (value % 2) == 0:            # Se o valor da lista for PAR, entáo faça:
             s = s + value                   # s recebe a soma de s com valor.
     print(f'A soma dos valores PARES da lista é igual a {s}.')
-
 
 # Programa Principal
 numeros = list()    # números recebe uma lista vazia.
