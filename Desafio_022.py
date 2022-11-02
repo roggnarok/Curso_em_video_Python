@@ -1,6 +1,5 @@
 #022: Crie um programa que leia o nome completo de uma pessoa e mostre: - O nome com todas as letras maiúsculas e minúsculas. - Quantas letras ao todo (sem considerar espaços). - Quantas letras tem o primeiro nome.
-nome = input('Digite um nome completo: ')
-nome = nome.strip() # Remove os espaços antes e após o nome
+nome = input('Digite um nome completo: ').strip() #Lê o nome e Remove os espaços antes e após o nome
 maiuscula = nome.upper() #Transmorma tudo em maiúscula e guarda na variável
 minuscula = nome.lower() #Transmorma tudo em minúscula e guarda na variável
 nomeFatiado = nome.split() #Faz o fatiamento das partes do nome e guarda na variável
@@ -11,5 +10,5 @@ nroDeLetras = tamanho - espacos #subtração da qtd de caracteres do nome, menos
 print(f'O nome convertido em maiúscula é {maiuscula}\
     \nO nome converido em minúscula é {minuscula}\
     \nEste nome tem {nroDeLetras} letras, sem considerar os espaços.\
-    \nO primeiro nome tem {len(primeiroNome)} letras.')
+    \nSeu primeiro nome é {primeiroNome} e ele tem {len(primeiroNome)} letras.')
 #This job was made by Rodrigo. https://github.com/roggnarok
