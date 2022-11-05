@@ -1,5 +1,5 @@
 
-#Exercício de 28 a 
+#Exercício de 28 a 35
 '''
 Algorítimo para um carro chegar em determinado ponto:
 carro.siga()
