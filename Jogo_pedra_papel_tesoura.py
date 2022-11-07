@@ -47,8 +47,10 @@ while True:
             placarUsuario += 1
 
     #Mostra o placar
-    print(f'\tPlacar \n>>> VOCÊ {placarUsuario} x {placarPC} COMPUTADOR <<<')
-
+    print(f'\033[0;30;45m\tPLACAR\033[m\
+        \n\033[0;30;42m>>> VOCÊ {placarUsuario} x {placarPC} COMPUTADOR <<<\033[m')
+    #O código \033[0,30;45m mostra o PLACAR na cor Preta e o fundo em lilás
+    #O código \033[31;47m mostra na cor Vermelha e o fundo em Cinza
     #jogo acaba quando alguém fizer 3 pontos
     if placarUsuario == 3:
         print('Você venceu o computador!')
