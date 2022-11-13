@@ -66,4 +66,3 @@ while True:
     if jogarNovamente == 'N':
         break
 #This job was made by Rodrigo. https://github.com/roggnarok
-

@@ -26,3 +26,4 @@ elif formaDePagto == 4:
         \nEm quantas vezes quer parcelar? '))
     print(f'Você escolheu parcelar em {parcelas}x, terá acréscimo de 20%.\
         \nVocê irá pagar R${valorPrd*1.2} em {parcelas}x de R${((valorPrd*1.2)/parcelas):.2f}')
+#This job was made by Rodrigo. https://github.com/roggnarok

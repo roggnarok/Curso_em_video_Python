@@ -6,11 +6,9 @@
     entre eles.
 '''
 from time import sleep
-print(f'Vai começar a contagem regressiva...')
-for i in range(10, 0, -1):
-    print(f'{i}', end=" ")
-    sleep(0.333)
-    for c in range(0,3):
-        print('.', end=" ")
-        sleep(0.333)
+print('Vai começar a contagem regressiva.')
+for contador in range(10, 0, -1):
+    print(f'{contador}')
+    sleep(1)
 print('Feliz Ano Novo!!!')
+#This job was made by Rodrigo. https://github.com/roggnarok

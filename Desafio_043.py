@@ -22,4 +22,4 @@ elif imc < 40:
     print('Você está \033[31mObeso\033[m')
 else:
     print('Você está com \033[31mObesidade mórbida\033[m')
-
+#This job was made by Rodrigo. https://github.com/roggnarok
